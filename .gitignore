@@ -1,0 +1,22 @@
+# Secrets - never commit, per Revenant Systems GitHub SOP
+.env
+*.env
+Secrets.env
+**/secrets/**
+**/keys/**
+*.key
+*.pem
+config.local.*
+*.pfx
+credentials.json
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# OS
+Thumbs.db
+.DS_Store
+desktop.ini
