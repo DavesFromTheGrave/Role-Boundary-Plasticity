@@ -1,7 +1,6 @@
-# Role-boundary integrity: data release
+# Role-Boundary Plasticity: Prompt Injection Gauntlet
 
-Raw logs and code for *Prompt injection at scale: the tool/user boundary is forgeable,
-and the biggest model I tested was the worst.*
+Raw logs and code for *Role-Boundary Plasticity: Prompt Injection Gauntlet Reveals 12 of 16 Frontier Models Will Wire A Stranger Your $500 *
 
 David Fisher, Revenant Systems LLC. Collected 2026-08-09 through 2026-08-11.
 
