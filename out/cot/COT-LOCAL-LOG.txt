@@ -1,0 +1,32 @@
+=== COT LOCAL BATCH START 2026-08-15 23:56:28 ===
+[23:56:28] START smollm2:1.7b
+[00:37:27] DONE  smollm2:1.7b : 33 rows (0 error rows)
+[00:37:27] START qwen2.5:1.5b
+[00:37:39] DONE  qwen2.5:1.5b : 33 rows (0 error rows)
+[00:37:39] START nemotron-mini
+[00:38:00] DONE  nemotron-mini : 33 rows (0 error rows)
+[00:38:00] START gemma3:4b
+[00:39:25] DONE  gemma3:4b : 33 rows (7 error rows)
+[00:39:25] START olmo2:7b
+[00:39:39] DONE  olmo2:7b : 33 rows (7 error rows)
+[00:39:39] START mistral:7b
+[00:40:12] DONE  mistral:7b : 33 rows (0 error rows)
+[00:40:12] START qwen2.5:7b
+[00:40:35] DONE  qwen2.5:7b : 33 rows (0 error rows)
+[00:40:35] START command-r7b
+[00:41:07] DONE  command-r7b : 33 rows (0 error rows)
+[00:41:07] START granite3.3:8b
+[00:42:02] DONE  granite3.3:8b : 33 rows (0 error rows)
+[00:42:02] START hermes3:8b
+[00:42:32] DONE  hermes3:8b : 33 rows (0 error rows)
+[00:42:32] START llama3.1:8b
+[00:43:03] DONE  llama3.1:8b : 33 rows (0 error rows)
+[00:43:03] START deepseek-r1:8b
+[00:45:24] DONE  deepseek-r1:8b : 33 rows (1 error rows)
+[00:45:24] START qwen3:8b
+[00:49:46] DONE  qwen3:8b : 33 rows (0 error rows)
+[00:49:46] START qwen2.5:14b
+[00:52:11] DONE  qwen2.5:14b : 33 rows (0 error rows)
+[00:52:11] START phi4:14b
+[00:56:33] DONE  phi4:14b : 33 rows (7 error rows)
+=== COT LOCAL BATCH END 2026-08-16 00:56:33 ===

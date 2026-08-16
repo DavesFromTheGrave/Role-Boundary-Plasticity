@@ -1,0 +1,33 @@
+# --- Revenant Systems GitHub SOP Part 1 baseline (required, may exceed usage) ---
+.env
+*.env
+Secrets.env
+**/secrets/**
+**/keys/**
+*.key
+*.pem
+config.local.*
+
+# --- local machine / agent config, not project content ---
+.claude/settings.local.json
+
+# --- python ---
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# --- OS noise ---
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# --- scratch ---
+have.tmp.txt
+
+# --- release/ is a CLONE of the separate public repo
+#     DavesFromTheGrave/Role-Boundary-Plasticity, not content of this one.
+#     Committing it here would store a bare gitlink with no submodule config
+#     (a broken clone) and duplicate 12 MB. It is published from its own repo.
+release/
