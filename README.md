@@ -36,12 +36,13 @@ python build_charts.py         # rebuild out/chart_data.json
 # then open dashboard.html
 ```
 
-## Dashboard
+## Dashboards
 
-Open `dashboard.html` locally for the interactive version, or see the static snapshot:
+- **Study dashboard:** [role-boundary-dashboard.html](role-boundary-dashboard.html) — standalone interactive data dashboard.
+- **Research knowledge graph:** [role-boundary-knowledge-graph.html](role-boundary-knowledge-graph.html) — interactive map of study concepts, conditions, providers, and model evidence.
+- **Original aggregate dashboard:** [dashboard.html](dashboard.html).
 
-![Dashboard](out/dashboard.png)
-
+Dashboard preparation notes and the dated data snapshot are in [interactive-dashboard/README-STUDY.md](interactive-dashboard/README-STUDY.md) and out/dashboard_snapshot_2026-09-22.json.
 ## Pipeline
 
 `payloads.py` (payload text) &rarr; `harness.py` (fires API calls, logs raw to CSV) &rarr; `rescore.py` (applies corrected scoring) &rarr; `build_charts.py` &rarr; `dashboard.html`
